@@ -66,6 +66,7 @@ function Search({selected, details, setToggle, setDataobj, dataobj}){
                                             <option key={i}>{x}</option>
                                         );
                                     }
+                                    return null;
                                 })
                             }
                         </select>
@@ -80,6 +81,7 @@ function Search({selected, details, setToggle, setDataobj, dataobj}){
                                             <option key={i}>{x}</option>
                                         );
                                     }
+                                    return null;
                                 })
                             }
                         </select>
@@ -94,6 +96,7 @@ function Search({selected, details, setToggle, setDataobj, dataobj}){
                                             <option key={i}>{x}</option>
                                         );
                                     }
+                                    return null;
                                 })
                             }
                         </select>
@@ -108,6 +111,7 @@ function Search({selected, details, setToggle, setDataobj, dataobj}){
                                             <option key={i}>{x}</option>
                                         );
                                     }
+                                    return null;
                                 })
                             }
                         </select>
@@ -122,6 +126,7 @@ function Search({selected, details, setToggle, setDataobj, dataobj}){
                                             <option key={i}>{x}</option>
                                         );
                                     }
+                                    return null;
                                 })
                             }
                         </select>
