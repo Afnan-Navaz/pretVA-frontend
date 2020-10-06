@@ -1,0 +1,106 @@
+nav{
+  border-bottom: 5px solid #dadad8;
+  ul{
+    li{
+      text-decoration: none;
+      list-style: none;
+      a{
+        color: black;
+      }
+    }
+    .active{
+      background-color: #fdec93;
+    }
+  }
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.box{
+  border: 1px solid black;
+  p{
+    margin-bottom: 0px;
+  }
+}
+
+.bx1{
+  border-radius: 25px 0% 0% 25px;
+}
+
+.bx2{
+  border: 2px solid #7c8f6a;
+  border-radius: 0% 25px 25px 0%;
+  background-color: #fdec93;
+}
+
+.search-box{
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.search-2{
+  width: 80%;
+  .blue{
+    background-color: #0a3d40;
+  }
+  .white{
+    background-color:transparent;
+    cursor: pointer;
+  }
+  button{
+    white-space: nowrap;
+    text-align: center;
+    height: 100%;
+  }
+}
+
+.sel{
+  .col{
+    select{
+      border: none;
+      font-size: small;
+      font-weight: bold;
+    }
+  }
+}
+
+.filter{
+  border-top: 1px lightgray solid;
+  border-bottom: 1px lightgray solid;
+  p{
+    margin-bottom: 0px;
+  }
+}
+
+.user-card{
+  border-radius: 20px;
+  border: 1px lightgray solid;
+}
+
+.user{
+  background-color: #e8e8e8;
+  border-radius: 20px;
+}
+
+.details{
+  font-size: 15px;
+}
+
+footer{
+  background-color: #164243;
+  color: white;
+}
+
+.clear{
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+
+.clear-main{
+  background-color: #0a3d40;
+  color: white;
+  cursor: pointer;
+}
