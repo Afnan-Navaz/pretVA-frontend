@@ -6,7 +6,7 @@ import Search from './components/Search';
 import Container from './components/container/Container';
 import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   const [details, setDetails] = useState({});
   const [dataobj, setDataobj] = useState({
       buyer_name: null, 
