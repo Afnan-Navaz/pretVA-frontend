@@ -15,6 +15,7 @@ const App = () => {
       fabric_quality: null,
       length_mtr: null
   })
+  
   const [loading, setLoading] = useState(false);
   const [toggle, setToggle] = useState(true);
   const [productlist, setProductlist] = useState();
