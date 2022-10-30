@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import './App.scss';
 import Nav from './components/Nav';
 import Head from './components/Head';
 import Search from './components/Search';
 import Container from './components/container/Container';
 import Footer from './components/Footer';
+
+import './App.scss';
 
 const App = () => {
   const [details, setDetails] = useState({});
