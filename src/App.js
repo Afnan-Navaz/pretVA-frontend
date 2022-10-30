@@ -66,7 +66,9 @@ const App = () => {
       <Head />
       <Search dataobj={dataobj} setDataobj={setDataobj} details={details} selected={selected} setToggle={setToggle} />
       {
-        (productlist && !loading) ? <Container productlist={productlist} /> : <h5 className="font-weight-bold text-center mt-5">Loading....</h5>
+        (productlist && !loading) ? 
+          <Container productlist={productlist} /> : 
+          <h5 className="font-weight-bold text-center mt-5">Loading....</h5>
       }
       <Footer />
     </>
